@@ -14,8 +14,10 @@
             <option value="$PROJECT_DIR$/app/business_card" />
             <option value="$PROJECT_DIR$/app/compose_article" />
             <option value="$PROJECT_DIR$/app/compose_quadrant" />
+            <option value="$PROJECT_DIR$/app/dice_roll" />
             <option value="$PROJECT_DIR$/app/happy_birthday_card" />
-            <option value="$PROJECT_DIR$/app/taskmanagercompleteimage" />
+            <option value="$PROJECT_DIR$/app/lemonade_app" />
+            <option value="$PROJECT_DIR$/app/task_manager_complete_page" />
           </set>
         </option>
       </GradleProjectSettings>
