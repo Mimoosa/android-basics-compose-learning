@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/art_space_app" />
             <option value="$PROJECT_DIR$/app/business_card" />
             <option value="$PROJECT_DIR$/app/compose_article" />
             <option value="$PROJECT_DIR$/app/compose_quadrant" />
@@ -18,7 +19,9 @@
             <option value="$PROJECT_DIR$/app/happy_birthday_card" />
             <option value="$PROJECT_DIR$/app/lemonade_app" />
             <option value="$PROJECT_DIR$/app/lemonade_app_ver2" />
+            <option value="$PROJECT_DIR$/app/number_guessing_game" />
             <option value="$PROJECT_DIR$/app/task_manager_complete_page" />
+            <option value="$PROJECT_DIR$/app/tip_calculator" />
           </set>
         </option>
       </GradleProjectSettings>

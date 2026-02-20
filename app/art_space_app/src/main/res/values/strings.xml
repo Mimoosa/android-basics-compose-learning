@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">art_space_app</string>
+    <string name="xandro_vandewalle">xandro Vandewalle</string>
+    <string name="wolfgang_hasselmann">Wolfgang Hasselmann</string>
+    <string name="adam_bouse">Adam Bouse</string>
+    <string name="previous_button_label">Previous</string>
+    <string name="next_button_label">Next</string>
+</resources>
