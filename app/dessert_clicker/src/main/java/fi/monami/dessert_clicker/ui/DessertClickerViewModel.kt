@@ -15,7 +15,7 @@ class DessertClickerViewModel: ViewModel() {
     private val desserts = Datasource.dessertList
 
     fun updateDessertInfo(){
-        val updatedDesertSold = _uiState.value.dessertsSold + 1
+        val updatedDesertSold = _uiState.value.dessertSold + 1
         val updatedDessert = determineDessertToShow(updatedDesertSold)
         val updatedRevenue = _uiState.value.revenue + updatedDessert.price
         updateState(updatedDesertSold, updatedRevenue, updatedDessert)
@@ -25,7 +25,7 @@ class DessertClickerViewModel: ViewModel() {
         _uiState.update { currentState->
             currentState.copy(
                 revenue = revenue,
-                dessertsSold = dessertSold,
+                dessertSold = dessertSold,
                 dessertPrice = dessert.price,
                 dessertImageId = dessert.imageId
             )

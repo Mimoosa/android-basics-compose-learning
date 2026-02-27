@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lotto</string>
+    <string name="instruction">Choose 7 numbers from range 1 to 40!</string>
+    <plurals name="number_matched">
+        <item quantity="zero">No numbers matched</item>
+        <item quantity="one">%d number matched</item>
+        <item quantity="other">%d numbers matched</item>
+    </plurals>
+</resources>
