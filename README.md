@@ -11,3 +11,6 @@ Each screenshot represents the finished UI of an app I built based on what I lea
 
 ### Courses App 
 ![Courses Screenshot](https://github.com/user-attachments/assets/de716699-a02c-4613-9ee8-520bf31b8066)
+
+### Lotto App
+![Lotto Screenshot](ttps://github.com/user-attachments/assets/d44c5ef2-733b-4521-b1cb-85016b21ac0b)
