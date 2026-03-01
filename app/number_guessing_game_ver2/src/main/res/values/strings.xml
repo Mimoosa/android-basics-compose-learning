@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">number_guessing_game</string>
+    <string name="game_title">Guess the Number</string>
+    <string name="game_instruction">Please guess the number from 1 to 100 and type it in.</string>
+    <string name="guess_button_label">Guess</string>
+    <string name="too_low">Too Low</string>
+    <string name="too_high">Too High</string>
+    <string name="correct_num">You guessed the correct number!</string>
+    <string name="initial_feedback">Enter a number and tap the button.</string>
+    <string name="attempted_num">You attempted %s times.</string>
+</resources>
