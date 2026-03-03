@@ -14,3 +14,7 @@ Each screenshot represents the finished UI of an app I built based on what I lea
 
 ### Lotto App
 ![Lotto Screenshot](https://github.com/user-attachments/assets/d44c5ef2-733b-4521-b1cb-85016b21ac0b)
+
+### Single Photo Viewer
+![Photo_Viewer Screenshot](https://github.com/user-attachments/assets/9d5bcc17-e57d-47d3-9586-6d40d5bbcd80)
+
