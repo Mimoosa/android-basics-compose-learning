@@ -13,6 +13,7 @@ kotlin = "2.0.21"
 composeBom = "2024.09.00"
 foundation = "1.10.3"
 lifecycleViewmodelCompose = "2.6.1"
+lifecycleViewmodelComposeVersion = "2.8.7"
 navigationTesting = "2.9.7"
 uiAndroid = "1.7.0"
 lifecycle = "2.5.1"
@@ -22,6 +23,7 @@ navigationCompose = "2.9.7"
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-viewmodel-compose-v261 = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-lifecycle-viewmodel-compose-v287 = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelComposeVersion" }
 androidx-navigation-testing = { module = "androidx.navigation:navigation-testing", version.ref = "navigationTesting" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

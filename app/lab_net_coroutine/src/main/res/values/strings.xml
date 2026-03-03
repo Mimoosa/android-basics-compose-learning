@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab_net_coroutine</string>
+    <string name="title">Single Photo Viewer</string>
+    <string name="loading_failed">Failed to load</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading</string>
+    <string name="ramdom">random photo</string>
+</resources>

@@ -40,9 +40,6 @@
       <SelectionState runConfigName="app.tip_calculator">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="calculate_20_percent_tip()">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="app.art_space_app">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-02-20T23:15:42.697784400Z">
@@ -91,6 +88,9 @@
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="app.number_guessing_game_ver2">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="app.lab_net_coroutine">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
