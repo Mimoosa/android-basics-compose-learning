@@ -21,7 +21,6 @@
             <option value="$PROJECT_DIR$/app/dessert_clicker" />
             <option value="$PROJECT_DIR$/app/dice_roll" />
             <option value="$PROJECT_DIR$/app/happy_birthday_card" />
-            <option value="$PROJECT_DIR$/app/lab_net_coroutine" />
             <option value="$PROJECT_DIR$/app/lemonade_app" />
             <option value="$PROJECT_DIR$/app/lemonade_app_ver2" />
             <option value="$PROJECT_DIR$/app/lotto_viewmodel" />
@@ -29,7 +28,9 @@
             <option value="$PROJECT_DIR$/app/mars_photos" />
             <option value="$PROJECT_DIR$/app/number_guessing_game" />
             <option value="$PROJECT_DIR$/app/number_guessing_game_ver2" />
+            <option value="$PROJECT_DIR$/app/president_app" />
             <option value="$PROJECT_DIR$/app/race_tracker" />
+            <option value="$PROJECT_DIR$/app/single_photo_viewer_app" />
             <option value="$PROJECT_DIR$/app/task_manager_complete_page" />
             <option value="$PROJECT_DIR$/app/tip_calculator" />
             <option value="$PROJECT_DIR$/app/word_scrambler_game" />
