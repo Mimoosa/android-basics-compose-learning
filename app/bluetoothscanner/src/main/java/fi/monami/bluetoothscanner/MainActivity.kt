@@ -60,7 +60,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    // ← ここ！ onCreate の外に置く
+
     private fun hasPermissions(): Boolean {
         if (mBluetoothAdapter == null || !mBluetoothAdapter!!.isEnabled) {
             Log.d("DBG", "No Bluetooth LE capability")
