@@ -18,6 +18,8 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.viewmodel.compose.viewModel
 
@@ -34,6 +36,7 @@ class MainActivity : ComponentActivity() {
     private val scanner by lazy {
         mBluetoothAdapter?.bluetoothLeScanner
     }
+
     @androidx.annotation.RequiresPermission(android.Manifest.permission.BLUETOOTH_SCAN)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,9 +56,24 @@ class MainActivity : ComponentActivity() {
 
                 LazyColumn {
                     items(model.results) { result ->
-                        Text("${result.device.address} RSSI: ${result.rssi}")
+
+                        val name =
+                            if (checkSelfPermission(Manifest.permission.BLUETOOTH_CONNECT)
+                                == PackageManager.PERMISSION_GRANTED
+                            ) {
+                                result.device.name ?: "Unknown"
+                            } else {
+                                "Unknown"
+                            }
+
+                        Text(
+                            text = "$name  ${result.device.address}  RSSI: ${result.rssi}",
+                            color = if (result.isConnectable) Color.Black else Color.Gray
+                        )
                     }
                 }
+
+
             }
         }
     }
